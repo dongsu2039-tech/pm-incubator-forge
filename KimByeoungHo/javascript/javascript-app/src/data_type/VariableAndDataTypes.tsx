@@ -43,7 +43,7 @@ const VariableAndDataTypes = () => {
 
   return (
     <div>
-      <h3>javascript 변수와 데이터 타입</h3>
+      <h3>Javascript 변수와 데이터 타입</h3>
       <pre>{
         `
         let firstNumber = ${firstNumber}           // 숫자 타입(Number)

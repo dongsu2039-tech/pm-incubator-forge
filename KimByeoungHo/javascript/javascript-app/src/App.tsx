@@ -1,6 +1,7 @@
 import './App.css'
 import { CalculationExample } from './math_operation/CalculationExample'
-import VariableAndDataTypes from './data_type/VariableAnddatatypes'
+import VariableAndDataTypes from './data_type/VariableAndDataTypes'
+import { LogicalOperationExample } from './logical_operation/LogicalOperationExample'
 
 function App() {
  
@@ -11,6 +12,7 @@ function App() {
         {/* 이 커스텀 태그는 단순히 사칙연산 + 나머지(MOD) 연산 */}
         <CalculationExample/>
         <VariableAndDataTypes/>
+        <LogicalOperationExample/>
       </div>
     </>
   )
