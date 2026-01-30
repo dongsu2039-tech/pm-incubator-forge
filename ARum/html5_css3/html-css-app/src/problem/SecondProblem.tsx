@@ -6,13 +6,21 @@ export const SecondProblem = () => {
     for (let i = 3, j = 0; j <= 4; i += 3, j++) {
         loopResultArray.push(i)
         summation += loopResultArray[j]
-}
+    }
 
     // let number =3;
     // let count = 0;
     // for (; count <=4; number += 3, count++) {
     //      loopResultArray.push(number)
     //      summation += loopResultArray[count]
+
+    // ▽ 배열값이 너무 많게 되면 비효율적인 방법
+    // let loopResultArray = [3, 6, 9, 12, 15]
+    // let summation = 0
+    // let count = 0;
+    // for (; count <= 4; count++) {
+    //      summation += loopResultArray[count]
+    // }
 
     return (
         <div>

@@ -9,6 +9,11 @@ import { ControlFlowFor } from './control_flow/ControlFlowFor.tsx'
 import { ControlFlowForSummation } from './control_flow/ControlFlowForSummation.tsx'
 import { ControlFlowForSummationExample } from './control_flow/ControlFlowForSummationExample.tsx'
 import { SecondProblem } from './problem/SecondProblem.tsx'
+import { MapExample } from './map/MapExample.tsx'
+import { MapReduceExample } from './map/MapReduceExample.tsx'
+import { MapFilterExample } from './map/MapFilterExample.tsx'
+import { ArraySliceExample } from './array/ArraySliceExample.tsx'
+import { ArraySpliceExample } from './array/ArraySpliceExample copy.tsx'
 
 function App() {
 
@@ -30,6 +35,11 @@ function App() {
         <ControlFlowForSummation/>
         <ControlFlowForSummationExample/>
         <SecondProblem/>
+        <MapExample/>
+        <MapReduceExample/>
+        <MapFilterExample/>
+        <ArraySliceExample/>
+        <ArraySpliceExample/>
       </div>
     </>
   )

@@ -17,7 +17,7 @@ export const SecondProblem = () => {
 
             <pre>{
             `
-loopResultArray = ${loopResultArray}
+loopResultArray = ${loopResultAlrray}
 summation = ${summation}            
             `
              } </pre>
