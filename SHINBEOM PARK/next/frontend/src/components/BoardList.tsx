@@ -1,4 +1,4 @@
-// import { Post } from '../mockData.ts';
+import type { Post } from '../mockData';
 import './BoardList.css';
 
 interface BoardListProps {
