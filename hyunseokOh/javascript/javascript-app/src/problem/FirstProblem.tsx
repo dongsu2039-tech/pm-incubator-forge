@@ -6,7 +6,7 @@ export const FirstProblem = () => {
 
     return (
         <div>
-            <h2>Control Flow If Example</h2>
+            <h2>First Problem</h2>
             <pre>{`
 x = ${x};                           // 변수 x 선언 및 초기화
 z = ${z};                           // 변수 z 선언 및 초기화

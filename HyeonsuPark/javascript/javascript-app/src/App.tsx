@@ -1,4 +1,7 @@
 import './App.css'
+import { MapExample } from './map/MapExample'
+import { MapReduceExample } from './map/MapReduceExample'
+import { MapFilterExample } from './map/MapFilterExample'
 import { ControlFlowFor } from './control_flow/ControlFlowFor'
 import { ControlFlowForSummation } from './control_flow/ControlFlowForSummation'
 import { ControlFlowForSumExample } from './control_flow/ControlFlowForSumExample'
@@ -9,6 +12,8 @@ import { CalculationExample } from './math_operation/CalculationExample'
 import { LogicalOperationExample } from './logical_operation/LogicalOperationExample'
 import { FirstProblem } from './problem/FirstProblem'
 import { SecondProblem } from './problem/SecondProblem'
+import { ArraySliceExample } from './array/ArraySliceExample'
+import { ArraySpliceExample } from './array/ArraySpliceExample'
 
 function App() {
  
@@ -30,6 +35,11 @@ function App() {
         <ControlFlowForSummation/>
         <ControlFlowForSumExample/>
         <SecondProblem/>
+        <MapExample/>
+        <MapReduceExample/>
+        <MapFilterExample/>
+        <ArraySliceExample/>
+        <ArraySpliceExample/>
       </div>
     </>
   )

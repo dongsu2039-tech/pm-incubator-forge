@@ -9,6 +9,11 @@ import { ControlFlowFor } from './control_flow/ControlFlowFor'
 import { ControlFlowSummation } from './control_flow/ControlFlowSummation'
 import { ControlFlowSumExample } from './control_flow/ControlFlowSumExample'
 import { SecondProblem } from './assets/problem/SecondProblem'
+import { MapExample } from './map/MapExample'
+import { MapReduceExample } from './map/MapReduceExample'
+import { MapFilterExample } from './map/MapFilterExample'
+import { ArraySliceExample } from './array/ArraySliceExample'
+import { ArraySpliceExample } from './array/ArraySpliceExample'
 
 function App() {
 
@@ -25,6 +30,11 @@ function App() {
         <ControlFlowSummation/>
         <ControlFlowSumExample/>
         <SecondProblem/>
+        <MapExample/>
+        <MapReduceExample/>
+        <MapFilterExample/>
+        <ArraySliceExample/>
+        <ArraySpliceExample/>
       </div>
     </>
   )

@@ -12,6 +12,11 @@ import { ControlFlowFor } from './control_flow/ControlFlowFor'
 import { ControlFlowForSummation } from './control_flow/ControlFlowForSummation'
 import { ControlFlowForSumExample } from './control_flow/ControlFlowForSumExample'
 import { SecondProblem } from './problem/SecondProblem'
+import { MapExample } from './map/MapExample'
+import { MapReduceExample } from './map/MapReduceExample'
+import { MapFilterExample } from './map/MapFilterExample'
+import { ArraySpliceExample } from './array/ArraySpliceExample'
+import { ArraySliceExample } from './array/ArraySliceExample'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,21 +26,20 @@ function App() {
       <div>
         {/* 커스텀 컴포넌트 */}
         <CalculationExample/>
-        <br />
         <VariableAndDataTypes/>
-        <br />
         <LogicalOperationExample/>
-        <br />
         <ControlFlowIf/>
-        <br />
         <FirstProblem/>
-        <br />
         <ControlFlowSwitch/>
-        <br />
         <ControlFlowFor/>
         <ControlFlowForSummation/>
         <ControlFlowForSumExample/>
         <SecondProblem/>
+        <MapExample/>
+        <MapReduceExample/>
+        <MapFilterExample/>
+        <ArraySliceExample/>
+        <ArraySpliceExample/>
       </div>
     </>
   )

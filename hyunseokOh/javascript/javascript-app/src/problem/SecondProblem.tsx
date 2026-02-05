@@ -10,7 +10,7 @@ export const SecondProblem = () => {
 
     return (
         <div>
-            <h2>Control Flow For Example</h2>
+            <h2>Second Problem</h2>
             <pre>{`
 loopResultArray = ${loopResultArray}; // for 문 결과 저장
 summation = ${summation}; // 배열 요소들의 합계 저장

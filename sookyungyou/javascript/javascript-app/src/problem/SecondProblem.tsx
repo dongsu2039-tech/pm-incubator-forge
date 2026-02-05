@@ -18,6 +18,18 @@ export const SecondProblem = () => {
 //       summation += LoopResultArray[count]     
 //   }
 
+//또 다른 방법
+// export const SecondProblem = () => {
+// let LoopResultArray = [3, 6, 9, 12, 15]
+// let summation = 0
+   
+//  let count = 0;
+
+//  for (; count <= 4; count++) {
+//      summation += LoopResultArray[count]
+       
+//   }
+
    
     return (
         <div>

@@ -8,6 +8,11 @@ import { LogicalOperationExample } from './logical_operation/LogicalOperationExa
 import { CalculationExample } from './math_operation/CalculationExample'
 import { ControlFlowForSummExample } from './control_flow/ControlFlowForSumExample'
 import { SecondProblem } from './problem/SecondProblem'
+import { MapExample } from './map/MapExample'
+import { MapReduceExample } from './map/MapReduceExample'
+import { MapFilterExample } from './map/MapFilterExample'
+import { ArraySliceExample } from './array/ArraySliceExample'
+import { ArraySpliceExample } from './array/ArraySpliceExample '
 
 function App() {
 
@@ -32,6 +37,11 @@ function App() {
         <ControlFlowForSummation />
         <ControlFlowForSummExample />
         <SecondProblem />
+        <MapExample />
+        <MapReduceExample />
+        <MapFilterExample />
+        <ArraySliceExample/>
+        <ArraySpliceExample/>
       </div>
     </>
   )

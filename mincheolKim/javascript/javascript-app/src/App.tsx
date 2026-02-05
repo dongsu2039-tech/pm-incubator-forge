@@ -1,9 +1,14 @@
 import './App.css'
+import { ArraySliceExample } from './array/ArraySliceExample'
+import { ArraySpliceExample } from './array/ArraySpliceExample'
 import { ControlFlowIf } from './control_flow/ControlFlowIf'
 import { VariableAndDataTypes } from './data_type/VariableAndDataTypes'
 import { LogicalOperationExample } from './logical_operation/LogicalOperationExample'
+import { MapExample } from './map/MapExample'
+import { MapFilterExample } from './map/MapFIlterExample'
+import { MapReduceExample } from './map/MapReduceExample'
 import { CalculationExample } from './math_operation/CalculationExample'
-import { FirstProblem } from './problem/FIrstProblem'
+import { FirstProblem } from './problem/FirstProblem'
 import { SecondProblem } from './problem/SecondProblem'
 
 
@@ -23,6 +28,11 @@ function App() {
         <ControlFlowIf/>
         <FirstProblem/>
         <SecondProblem/>
+        <MapExample/>
+        <MapReduceExample/>
+        <MapFilterExample/>
+        <ArraySliceExample/>
+        <ArraySpliceExample/>
       </div>
     </>
   )
